@@ -11,7 +11,7 @@ int main()
     
     printf("Welcome to the Guessing Game!\n");
 
-    do
+    do  // Loop until the user guesses the correct number
     {
         printf("\nEnter your guess number (1 to 100): ");
         scanf("%d", &guess);
